@@ -64,8 +64,9 @@ gap: 10px;
     height: 50px;
     border-radius: 0.6rem;
     box-sizing:border-box;
-    padding: 1em;
+    padding: 10%;
     max-height: 50px;
+    position:relative;
 }
 
 .elements:nth-child(1) {
@@ -100,9 +101,8 @@ color:hsl(234, 85%, 45%);
     border-radius: 2rem;
     font-size: 18px;
 }
-.elements span.resultnumber {
-    text-align: right;
-   
+.elements span {
+    float: right;
 }
 #summary h2 {
    color: hsl(224, 30%, 27%);
