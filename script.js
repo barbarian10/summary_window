@@ -19,7 +19,7 @@ fetch('things.json')
         <article class="elements">
         <img src='${elems.icon}'>
         ${elems.category}
-        ${elems.score}/100
+        <span class="text">${elems.score}/100</span>
         </article>
         `;
         }

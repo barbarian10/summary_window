@@ -98,4 +98,7 @@ color:hsl(234, 85%, 45%);
     border-radius: 0.3rem;
     font-size: 18px;
 }
+.text {
+    text-align: right;
+}
 
