@@ -110,4 +110,5 @@ color:hsl(234, 85%, 45%);
 
 .elements .resultnumber span {
     color: hsl(224, 30%, 27%);
+    float: right;
 }
