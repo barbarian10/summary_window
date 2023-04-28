@@ -101,7 +101,7 @@ color:hsl(234, 85%, 45%);
     border-radius: 2rem;
     font-size: 18px;
 }
-.elements span {
+.elements .resultnumber {
     float: right;
 }
 #summary h2 {
@@ -110,5 +110,5 @@ color:hsl(234, 85%, 45%);
 
 .elements .resultnumber span {
     color: hsl(224, 30%, 27%);
-    float: right;
+   
 }
