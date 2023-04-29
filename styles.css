@@ -69,33 +69,35 @@ gap: 10px;
     padding: 0.5em 0.5em;
     max-height: 50px;
     position:relative;
-    font-family: 'Jost', sans-serif;
+    
 }
 
 .elements:nth-child(1) {
 background: hsla(0, 100%, 67%, 0.1);
 color:hsl(0, 100%, 67%);
+font-family: 'Jost', sans-serif;
 }
 
 .elements:nth-child(2) {
 background: hsla(39, 100%, 56%, 0.1);
 color:hsl(39, 100%, 56%);
-
+font-family: 'Jost', sans-serif;
 }
 
 .elements:nth-child(3) {
 background:hsla(166, 100%, 37%, 0.1);
 color:hsl(166, 100%, 37%);
-
+font-family: 'Jost', sans-serif;
 }
 
 .elements:nth-child(4) {
 background:hsla(234, 85%, 45%, 0.1);
 color:hsl(234, 85%, 45%);
+font-family: 'Jost', sans-serif;
 }
 .continue {
     background: hsla(256, 72%, 46%, 1);
- margin-top: 30px;
+    margin-top: 30px;
     width: 100%;
     display: inline-block;
     text-align: center;
@@ -106,6 +108,7 @@ color:hsl(234, 85%, 45%);
 }
 .elements .resultnumber {
     float: right;
+    font-family: 'Jost', sans-serif;
 }
 #summary h2 {
    color: hsl(224, 30%, 27%);
@@ -113,5 +116,5 @@ color:hsl(234, 85%, 45%);
 
 .elements .resultnumber span {
     color: hsl(224, 30%, 27%);
-   
+    font-family: 'Jost', sans-serif;
 }
