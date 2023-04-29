@@ -1,11 +1,4 @@
-const btn = document.querySelector(".continue");
 
-
-btn.onclick = () => {
-    getData();
-}
-
-function getData(){
 fetch('things.json')
     .then(rep => rep.json())
 
@@ -25,4 +18,3 @@ fetch('things.json')
         }
         placeholder.innerHTML = out;
     })
-}
