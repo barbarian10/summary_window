@@ -12,7 +12,7 @@ fetch('things.json')
         <article class="elements">
         <img src='${elems.icon}'>
         ${elems.category}
-        <span class="resultnumber"><span>${elems.score}</span>/100</span>
+        <span class="resultnumber"><span>${elems.score}</span> / 100</span>
         </article>
         `;
         }
